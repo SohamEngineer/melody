@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+*{
+  font-family: "Fira Sans", sans-serif;
+;
+}
+.textgradient {
+  background: linear-gradient(
+    135deg,
+    
+    #38BDF8 0%,
+    #A855F7 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.buttongradient {
+  background: linear-gradient(
+    135deg,
+    #22D3EE 0%,
+    #A855F7 50%,
+    #EC4899 100%
+  );
+  color: #ffffff;
+  border: none;
+  border-radius: 9999px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.buttongradient:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(168, 85, 247, 0.35);
+}
+
+.text-gradient {
+  background: linear-gradient(
+    135deg,
+    #22D3EE 0%,
+    #38BDF8 40%,
+    #A855F7 70%,
+    #EC4899 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-cosmic {
+  background: linear-gradient(
+    180deg,
+    #020617 0%,
+    #0B1220 40%,
+    #1E3A8A 100%
+  );
+}
+.bg-neon {
+  background: linear-gradient(
+    135deg,
+    #020617 0%,
+    #0F172A 30%,
+    #22D3EE 65%,
+    #A855F7 100%
+  );
+}
+.bg-crimson {
+  background: linear-gradient(
+    135deg,
+    #020617 0%,
+    #1F0A0A 45%,
+    #7F1D1D 100%
+  );
+}
+
+.bg-emerald {
+  background: linear-gradient(
+    135deg,
+    #020617 0%,
+    #052E2B 50%,
+    #10B981 100%
+  );
+}
+
+.bg-violet-depth {
+  background: linear-gradient(
+    135deg,
+    #020617 0%,
+    #1E1B4B 45%,
+    #8b5ed4 100%
+  );
+}
+
+.bg-steel {
+  background: linear-gradient(
+    180deg,
+    #020617 0%,
+    #0F172A 60%,
+    #1E293B 100%
+  );
+}
+
+.bg-carousel-violet {
+   background: linear-gradient(
+    180deg,
+    #020617 0%,
+    #1E1B4B 60%,
+    #312E81 100%
+  );
+}
+
