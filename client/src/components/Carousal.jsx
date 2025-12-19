@@ -21,7 +21,7 @@ const slides = [
   },
   {
     id: 3,
-    title: "The Weeknd",
+    title: "Shreya Ghosal",
     subtitle: "Verified Artist",
     listeners: "112,000,000 monthly listeners",
     image: assets.shreya,
@@ -73,8 +73,8 @@ const HeroCarousel = () => {
       <div className="relative z-10 h-full flex flex-col md:flex-row justify-around items-center px-8 text-white transition-all duration-700 delay-300">
         {/* Text */}
         <div className="max-w-xl">
-          <p className="text-sm text-blue-400 font-semibold">
-            ✔ {slide.subtitle}
+          <p className="text-sm text-blue-400 font-semibold flex">
+          <img src={assets.varified} className="w-4 h-4 mr-2"/> {slide.subtitle}
           </p>
 
           <h1 className="text-4xl font-bold mt-1">

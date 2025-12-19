@@ -24,6 +24,7 @@ import clock_icon from './clock_icon.png'
 import background from "./background.jpg"
 import arijit from "./arijit.png"
 import shreya from "./shreya.png"
+import varified from "./varified.png"
 import hrn from "./hrn.png"
 import img1 from './img1.jpg'
 import img2 from './img2.jpg'
@@ -74,7 +75,8 @@ export const assets = {
     background,
     hrn,
     arijit,
-    shreya
+    shreya,
+    varified
 }
 
 export const albumsData = [

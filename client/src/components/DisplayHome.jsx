@@ -12,9 +12,6 @@ const DisplayHome = () => {
 
       {/* Hero Carousel */}
       <HeroCarousel />
-
-     
-
       {/* Biggest Hits */}
       <div className="mb-6 bg-violet-depth mt-10 p-4">
         <h1 className="py-6 font-bold text-4xl text-center">Today&apos;s <span className="text-gradient">Biggest Hits</span>  </h1>
